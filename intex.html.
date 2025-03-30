@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunación COVID-19</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #eef2f3;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Información sobre la Vacunación COVID-19</h1>
+    </header><section>
+    <div class="info">
+        <img src="https://www.who.int/images/default-source/health-topics/coronavirus/vaccines.jpg" alt="Vacunación COVID-19">
+        <h2>¿Por qué vacunarse?</h2>
+        <p>Las vacunas reducen el riesgo de infección y protegen contra síntomas graves y la hospitalización. Según la OMS, las vacunas han salvado millones de vidas.</p>
+        <p>La vacunación colectiva ayuda a disminuir la propagación del virus y protege a quienes no pueden vacunarse por razones médicas.</p>
+        <p>Más información en la <a href="https://www.who.int/es/news-room/feature-stories/detail/how-do-vaccines-work">OMS</a>.</p>
+    </div>
+    
+    <div class="info">
+        <img src="https://www.cdc.gov/coronavirus/2019-ncov/images/vaccines/vaccine-types.jpg" alt="Tipos de vacunas">
+        <h2>Tipos de vacunas</h2>
+        <p>Existen varios tipos de vacunas aprobadas:</p>
+        <ul>
+            <li><strong>ARNm:</strong> Pfizer y Moderna. Usan material genético para generar respuesta inmune.</li>
+            <li><strong>Vector viral:</strong> AstraZeneca y Johnson & Johnson. Usan un virus modificado para enseñar al sistema inmunológico.</li>
+            <li><strong>Virus inactivado:</strong> Sinovac y Sinopharm. Contienen versiones inactivas del virus.</li>
+        </ul>
+        <p>Más información en los <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html">CDC</a>.</p>
+    </div>
+
+    <div class="info">
+        <img src="https://www.who.int/images/default-source/health-topics/coronavirus/vaccine-myths.jpg" alt="Mitos y realidades">
+        <h2>Mitos y realidades sobre las vacunas</h2>
+        <p>Existen muchos mitos sobre las vacunas. Algunas realidades son:</p>
+        <ul>
+            <li>Las vacunas NO contienen microchips ni alteran el ADN.</li>
+            <li>Los efectos secundarios suelen ser leves y temporales.</li>
+            <li>Vacunarse sigue siendo necesario, incluso si has tenido COVID-19.</li>
+        </ul>
+    </div>
+
+    <div class="info">
+        <h2>¿Cómo acceder a la vacunación?</h2>
+        <p>Consulta los centros de vacunación en tu país en páginas oficiales:</p>
+        <ul>
+            <li><a href="https://www.who.int/">Organización Mundial de la Salud</a></li>
+            <li><a href="https://www.cdc.gov/">Centros para el Control y la Prevención de Enfermedades</a></li>
+            <li><a href="https://www.unicef.org/">UNICEF</a></li>
+        </ul>
+        <p>Verifica con tu ministerio de salud para conocer el esquema de vacunación disponible.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Fuente: OMS, CDC, Ministerio de Salud Pública</p>
+</footer>
+
+</body>
+</html>
